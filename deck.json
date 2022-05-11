@@ -1,0 +1,964 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "6081ce5a-d0f9-11ec-a30c-617f119a1d53",
+    "deck_config_uuid": "6081ce5b-d0f9-11ec-a30c-617f119a1d53",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "6081ce5b-d0f9-11ec-a30c-617f119a1d53",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "LBEIMinAfter": 4,
+                "LBEIMinBefore": 4,
+                "LBGIMinAfter": 1,
+                "LBGIMinBefore": 1,
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 1500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 0,
+                "perDay": 40,
+                "separate": true
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "replayq": true,
+            "rev": {
+                "bury": true,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.1,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 40
+            },
+            "reviewOrder": 0,
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [
+        "De-Pi.mp3",
+        "De-Psi.mp3",
+        "_remainingtime.min.js",
+        "alpha_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch.mp3",
+        "beta_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch.mp3",
+        "chi_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch.mp3",
+        "de_sigma.mp3",
+        "delta_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch.mp3",
+        "epsilon_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch.mp3",
+        "eta_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch.mp3",
+        "gamma_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch.mp3",
+        "iota_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch.mp3",
+        "kappa_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch.mp3",
+        "lambda_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch.mp3",
+        "mu_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch.mp3",
+        "ny_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch.mp3",
+        "omega_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch.mp3",
+        "omikron_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch.mp3",
+        "phi_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch.mp3",
+        "rho_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch.mp3",
+        "tau_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch.mp3",
+        "theta_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch-1.mp3",
+        "xi_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch.mp3",
+        "ypsilon_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch.mp3",
+        "zeta_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch.mp3"
+    ],
+    "name": "Griechisches Alphabet",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "6081ce5e-d0f9-11ec-a30c-617f119a1d53",
+            "css": ".card {\n font-family: arial;\n font-size: 24px;\n text-align: center;\n color: black;\n background-color: white;\n}",
+            "flds": [
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Symbol (front)",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Name (back)",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Lateinischer Buchstabe (back)",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Audio (back)",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "name": "gross_klein",
+                    "ord": 4,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\usepackage{ifsym} % für die Joins aus DBS\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic (Griechisches Alphabet)",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ],
+                [
+                    1,
+                    "any",
+                    [
+                        0
+                    ]
+                ],
+                [
+                    2,
+                    "any",
+                    [
+                        2
+                    ]
+                ],
+                [
+                    3,
+                    "any",
+                    [
+                        3,
+                        4
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [
+                "greek",
+                "greekalphabet"
+            ],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n<hr id=answer>\n<div>{{Audio (back)}}</div>\n<br><br>\n<div style=\"font-size:24px;\">{{Name (back)}} []</div>\n<br><br>\n<div style=\"font-size:24px;\"><u>Lateinischer Buchstabe</u>:</div>\n{{Lateinischer Buchstabe (back)}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Griechisch -> Aussprache",
+                    "ord": 0,
+                    "qfmt": "<!-- # 2eecab49dc1f9618 --><script src=\"_remainingtime.min.js\"></script><!-- / 2eecab49dc1f9618 -->\n\nWie <b>spricht</b> man diesen griechischen Buchstaben:\n<br>\n<br>\n{{Symbol (front)}}"
+                },
+                {
+                    "afmt": "{{FrontSide}}\n<hr id=answer>\n\n\n{{Lateinischer Buchstabe (back)}}\n<br><br><br>\n<div style=\"font-size:24px;\">{{Name (back)}} []</div>",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Griechisch -> Lateinisch",
+                    "ord": 1,
+                    "qfmt": "<!-- # 2eecab49dc1f9618 --><script src=\"_remainingtime.min.js\"></script><!-- / 2eecab49dc1f9618 -->\n\nWie schreibt man diesen griechischen Buchstaben:\n<br>\n<br>\n{{Symbol (front)}}\n<br>\n<br>\nals <b>lateinischen Buchstaben</b>?"
+                },
+                {
+                    "afmt": "{{FrontSide}}\n<hr id=answer>\n\n\n{{Symbol (front)}}\n<br>\n<br>\n<br>\n<div style=\"font-size:24px;\">{{Name (back)}} []</div>",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Lateinisch -> Griechisch",
+                    "ord": 2,
+                    "qfmt": "<!-- # 2eecab49dc1f9618 --><script src=\"_remainingtime.min.js\"></script><!-- / 2eecab49dc1f9618 -->\n\n{{FrontSide}}\nWie schreibt man diesen lateinischen Buchstaben:\n<br>\n<br>\n{{Lateinischer Buchstabe (back)}}\n<br>\n<br>\nals griechischen Buchstaben?"
+                },
+                {
+                    "afmt": "{{FrontSide}}\n<hr id=answer>\n<div style=\"font-size:24px;\">{{Symbol (front)}}</div>\n<br><br><br>\n<div style=\"font-size:24px;\">{{Name (back)}} []</div>\n<br>\n<div style=\"font-size:24px;\">Lateinischer Buchstabe:</div>\n{{Lateinischer Buchstabe (back)}}\n",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Aussprache -> Griechisch",
+                    "ord": 3,
+                    "qfmt": "<!-- # 2eecab49dc1f9618 --><script src=\"_remainingtime.min.js\"></script><!-- / 2eecab49dc1f9618 -->\n\nWie schreibt man diesen griechischen Buchstaben <b>{{gross_klein}}</b>?:\n<br>\n<br>\n\n<div>{{Audio (back)}}</div>\n\n"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\(\\alpha\\)",
+                "Alpha (kleingeschrieben)",
+                "a",
+                "[sound:alpha_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch.mp3]",
+                "<br/>kleingeschrieben"
+            ],
+            "guid": "zrR>)OzMM2",
+            "note_model_uuid": "6081ce5e-d0f9-11ec-a30c-617f119a1d53",
+            "tags": [
+                "Griechisches_Alphabet"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "A",
+                "Alpha (großgeschrieben)",
+                "A",
+                "[sound:alpha_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch.mp3]",
+                "<br/>großgeschrieben"
+            ],
+            "guid": "g~zh@O(pTQ",
+            "note_model_uuid": "6081ce5e-d0f9-11ec-a30c-617f119a1d53",
+            "tags": [
+                "Griechisches_Alphabet"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 255);\">\\(\\beta\\)</span>",
+                "Beta&nbsp;(kleingeschrieben)",
+                "b",
+                "[sound:beta_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch.mp3]<br>",
+                "<br/>kleingeschrieben"
+            ],
+            "guid": "qJ?SPW41iI",
+            "note_model_uuid": "6081ce5e-d0f9-11ec-a30c-617f119a1d53",
+            "tags": [
+                "Griechisches_Alphabet"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 255);\">B</span>",
+                "Beta&nbsp;(großgeschrieben)",
+                "B",
+                "[sound:beta_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch.mp3]<br>",
+                "<br/>großgeschrieben"
+            ],
+            "guid": "bZZyoKjcgQ",
+            "note_model_uuid": "6081ce5e-d0f9-11ec-a30c-617f119a1d53",
+            "tags": [
+                "Griechisches_Alphabet"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 255);\">\\(\\gamma\\)</span>",
+                "Gamma&nbsp;(kleingeschrieben)",
+                "g",
+                "[sound:gamma_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch.mp3]<br>",
+                "<br/>kleingeschrieben"
+            ],
+            "guid": "K(oH}Ghn:O",
+            "note_model_uuid": "6081ce5e-d0f9-11ec-a30c-617f119a1d53",
+            "tags": [
+                "Griechisches_Alphabet"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 255);\">\\(\\Gamma\\)</span>",
+                "Gamma&nbsp;(großgeschrieben)",
+                "G",
+                "[sound:gamma_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch.mp3]<br>",
+                "<br/>großgeschrieben"
+            ],
+            "guid": "Of^GC8_^g*",
+            "note_model_uuid": "6081ce5e-d0f9-11ec-a30c-617f119a1d53",
+            "tags": [
+                "Griechisches_Alphabet"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 255);\">\\(\\delta\\)</span>",
+                "Delta&nbsp;(kleingeschrieben)",
+                "<div>d</div>",
+                "[sound:delta_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch.mp3]<br>",
+                "<br/>kleingeschrieben"
+            ],
+            "guid": "BI4=VT=pPi",
+            "note_model_uuid": "6081ce5e-d0f9-11ec-a30c-617f119a1d53",
+            "tags": [
+                "Griechisches_Alphabet"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 255);\">\\(\\Delta\\)</span>",
+                "Delta&nbsp;(großgeschrieben)",
+                "<div>D</div>",
+                "[sound:delta_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch.mp3]<br>",
+                "<br/>großgeschrieben"
+            ],
+            "guid": "vhE8r~#tcv",
+            "note_model_uuid": "6081ce5e-d0f9-11ec-a30c-617f119a1d53",
+            "tags": [
+                "Griechisches_Alphabet"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 255);\">\\(\\epsilon\\)</span>",
+                "Epsilon&nbsp;(kleingeschrieben)",
+                "e",
+                "[sound:epsilon_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch.mp3]<br>",
+                "<br/>kleingeschrieben"
+            ],
+            "guid": "noR,$0)^&l",
+            "note_model_uuid": "6081ce5e-d0f9-11ec-a30c-617f119a1d53",
+            "tags": [
+                "Griechisches_Alphabet"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 255);\">E</span>",
+                "Epsilon&nbsp;(großgeschrieben)",
+                "E",
+                "[sound:epsilon_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch.mp3]<br>",
+                "<br/>großgeschrieben"
+            ],
+            "guid": "Ab,Rgn5L=%",
+            "note_model_uuid": "6081ce5e-d0f9-11ec-a30c-617f119a1d53",
+            "tags": [
+                "Griechisches_Alphabet"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 255);\">\\(\\zeta\\)</span>",
+                "Zeta&nbsp;(kleingeschrieben)",
+                "z",
+                "[sound:zeta_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch.mp3]<br>",
+                "<br/>kleingeschrieben"
+            ],
+            "guid": "Dr|8uCtrw",
+            "note_model_uuid": "6081ce5e-d0f9-11ec-a30c-617f119a1d53",
+            "tags": [
+                "Griechisches_Alphabet"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 255);\">Z</span>",
+                "Zeta&nbsp;(großgeschrieben)",
+                "Z (großgeschrieben)",
+                "[sound:zeta_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch.mp3]<br>",
+                "<br/>großgeschrieben"
+            ],
+            "guid": "K2Kuyj:2Wx",
+            "note_model_uuid": "6081ce5e-d0f9-11ec-a30c-617f119a1d53",
+            "tags": [
+                "Griechisches_Alphabet"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 255);\">\\(\\eta\\)</span>",
+                "Eta&nbsp;(kleingeschrieben)",
+                "ä",
+                "[sound:eta_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch.mp3]",
+                "<br/>kleingeschrieben"
+            ],
+            "guid": "o,wZ8[mXLf",
+            "note_model_uuid": "6081ce5e-d0f9-11ec-a30c-617f119a1d53",
+            "tags": [
+                "Griechisches_Alphabet"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 255);\">H</span>",
+                "Eta&nbsp;(großgeschrieben)",
+                "Ä",
+                "[sound:eta_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch.mp3]",
+                "<br/>großgeschrieben"
+            ],
+            "guid": "i]IN:.[O7a",
+            "note_model_uuid": "6081ce5e-d0f9-11ec-a30c-617f119a1d53",
+            "tags": [
+                "Griechisches_Alphabet"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 255);\">\\(\\theta\\)</span>",
+                "Theta&nbsp;(kleingeschrieben)",
+                "th",
+                "[sound:theta_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch-1.mp3]<br>",
+                "<br/>kleingeschrieben"
+            ],
+            "guid": "C%bK>#,~!N",
+            "note_model_uuid": "6081ce5e-d0f9-11ec-a30c-617f119a1d53",
+            "tags": [
+                "Griechisches_Alphabet"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 255);\">\\(\\Theta\\)</span>",
+                "Theta&nbsp;(großgeschrieben)",
+                "TH",
+                "[sound:theta_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch-1.mp3]<br>",
+                "<br/>großgeschrieben"
+            ],
+            "guid": "OL5%?dqvy1",
+            "note_model_uuid": "6081ce5e-d0f9-11ec-a30c-617f119a1d53",
+            "tags": [
+                "Griechisches_Alphabet"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 255);\">\\(\\iota\\)</span>",
+                "Jota (auch: Iota)&nbsp;(kleingeschrieben)",
+                "i",
+                "[sound:iota_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch.mp3]<br>",
+                "<br/>kleingeschrieben"
+            ],
+            "guid": "C~Y/@tJS^r",
+            "note_model_uuid": "6081ce5e-d0f9-11ec-a30c-617f119a1d53",
+            "tags": [
+                "Griechisches_Alphabet"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 255);\">I</span>",
+                "Jota (auch: Iota)&nbsp;(großgeschrieben)",
+                "I (großgeschrieben)",
+                "[sound:iota_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch.mp3]<br>",
+                "<br/>großgeschrieben"
+            ],
+            "guid": "f?8)3#={=)",
+            "note_model_uuid": "6081ce5e-d0f9-11ec-a30c-617f119a1d53",
+            "tags": [
+                "Griechisches_Alphabet"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 255);\">\\(\\kappa\\)</span>",
+                "Kappa&nbsp;(kleingeschrieben)",
+                "k",
+                "[sound:kappa_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch.mp3]<br>",
+                "<br/>kleingeschrieben"
+            ],
+            "guid": "d6*_+poWU%",
+            "note_model_uuid": "6081ce5e-d0f9-11ec-a30c-617f119a1d53",
+            "tags": [
+                "Griechisches_Alphabet"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "K",
+                "Kappa&nbsp;(großgeschrieben)",
+                "K",
+                "[sound:kappa_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch.mp3]<br>",
+                "<br/>großgeschrieben"
+            ],
+            "guid": "rZcXKr!57a",
+            "note_model_uuid": "6081ce5e-d0f9-11ec-a30c-617f119a1d53",
+            "tags": [
+                "Griechisches_Alphabet"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\(\\lambda\\)",
+                "Lambda&nbsp;(kleingeschrieben)",
+                "l (kleingeschrieben)",
+                "[sound:lambda_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch.mp3]<br>",
+                "<br/>kleingeschrieben"
+            ],
+            "guid": "zU8^A_62KW",
+            "note_model_uuid": "6081ce5e-d0f9-11ec-a30c-617f119a1d53",
+            "tags": [
+                "Griechisches_Alphabet"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\(\\Lambda\\)",
+                "Lambda&nbsp;(großgeschrieben)",
+                "L",
+                "[sound:lambda_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch.mp3]<br>",
+                "<br/>großgeschrieben"
+            ],
+            "guid": "s+ip(s*Bm*",
+            "note_model_uuid": "6081ce5e-d0f9-11ec-a30c-617f119a1d53",
+            "tags": [
+                "Griechisches_Alphabet"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 255);\">\\(\\mu\\)</span>",
+                "Mü&nbsp;(kleingeschrieben)",
+                "m",
+                "[sound:mu_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch.mp3]<br>",
+                "<br/>kleingeschrieben"
+            ],
+            "guid": "vSsbQctLeA",
+            "note_model_uuid": "6081ce5e-d0f9-11ec-a30c-617f119a1d53",
+            "tags": [
+                "Griechisches_Alphabet"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 255);\">M</span>",
+                "Mü&nbsp;(großgeschrieben)",
+                "M",
+                "[sound:mu_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch.mp3]<br>",
+                "<br/>großgeschrieben"
+            ],
+            "guid": "M:U04Y<dgO",
+            "note_model_uuid": "6081ce5e-d0f9-11ec-a30c-617f119a1d53",
+            "tags": [
+                "Griechisches_Alphabet"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 255);\">\\(\\nu\\)</span>",
+                "Ny&nbsp;(kleingeschrieben)",
+                "n",
+                "[sound:ny_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch.mp3]<br>",
+                "<br/>kleingeschrieben"
+            ],
+            "guid": "w9(.us@y~f",
+            "note_model_uuid": "6081ce5e-d0f9-11ec-a30c-617f119a1d53",
+            "tags": [
+                "Griechisches_Alphabet"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 255);\">N</span>",
+                "Ny&nbsp;(großgeschrieben)",
+                "N",
+                "[sound:ny_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch.mp3]<br>",
+                "<br/>großgeschrieben"
+            ],
+            "guid": "mpf}}S/{&|",
+            "note_model_uuid": "6081ce5e-d0f9-11ec-a30c-617f119a1d53",
+            "tags": [
+                "Griechisches_Alphabet"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 255);\">\\(\\xi\\)</span>",
+                "Xi&nbsp;(kleingeschrieben)",
+                "x (kleingeschrieben)",
+                "[sound:xi_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch.mp3]<br>",
+                "<br/>kleingeschrieben"
+            ],
+            "guid": "xXNfJPUkj/",
+            "note_model_uuid": "6081ce5e-d0f9-11ec-a30c-617f119a1d53",
+            "tags": [
+                "Griechisches_Alphabet"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 255);\">\\(\\Xi\\)</span>",
+                "Xi&nbsp;(großgeschrieben)",
+                "X (großgeschrieben)",
+                "[sound:xi_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch.mp3]<br>",
+                "<br/>großgeschrieben"
+            ],
+            "guid": "DW@SwKjt3T",
+            "note_model_uuid": "6081ce5e-d0f9-11ec-a30c-617f119a1d53",
+            "tags": [
+                "Griechisches_Alphabet"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 255);\">o</span>",
+                "Omikron&nbsp;(kleingeschrieben)",
+                "o (kurz)",
+                "[sound:omikron_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch.mp3]<br>",
+                "<br/>kleingeschrieben"
+            ],
+            "guid": "e@PBLYGJR;",
+            "note_model_uuid": "6081ce5e-d0f9-11ec-a30c-617f119a1d53",
+            "tags": [
+                "Griechisches_Alphabet"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "O (großgeschrieben, kurz)",
+                "Omikron&nbsp;(großgeschrieben)",
+                "O (kurz)",
+                "[sound:omikron_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch.mp3]<br>",
+                "<br/>großgeschrieben"
+            ],
+            "guid": "rr4L^F0C|z",
+            "note_model_uuid": "6081ce5e-d0f9-11ec-a30c-617f119a1d53",
+            "tags": [
+                "Griechisches_Alphabet"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 255);\">\\(\\pi\\)</span>",
+                "Pi&nbsp;(kleingeschrieben)",
+                "p",
+                "[sound:De-Pi.mp3]<br>",
+                "<br/>kleingeschrieben"
+            ],
+            "guid": "d9zgbmFn:&",
+            "note_model_uuid": "6081ce5e-d0f9-11ec-a30c-617f119a1d53",
+            "tags": [
+                "Griechisches_Alphabet"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 255);\">\\(\\Pi\\)</span>",
+                "Pi&nbsp;(großgeschrieben)",
+                "P",
+                "[sound:De-Pi.mp3]<br>",
+                "<br/>großgeschrieben"
+            ],
+            "guid": "Qn9FmpqeGB",
+            "note_model_uuid": "6081ce5e-d0f9-11ec-a30c-617f119a1d53",
+            "tags": [
+                "Griechisches_Alphabet"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 255);\">\\(\\rho\\)</span>",
+                "Rho&nbsp;(kleingeschrieben)",
+                "r",
+                "[sound:rho_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch.mp3]<br>",
+                "<br/>kleingeschrieben"
+            ],
+            "guid": "OceD(Z|U9L",
+            "note_model_uuid": "6081ce5e-d0f9-11ec-a30c-617f119a1d53",
+            "tags": [
+                "Griechisches_Alphabet"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 255);\">P</span>",
+                "Rho&nbsp;(großgeschrieben)",
+                "R",
+                "[sound:rho_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch.mp3]<br>",
+                "<br/>großgeschrieben"
+            ],
+            "guid": "f!8SIM76C^",
+            "note_model_uuid": "6081ce5e-d0f9-11ec-a30c-617f119a1d53",
+            "tags": [
+                "Griechisches_Alphabet"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div><span style=\"background-color: rgb(255, 255, 255);\">\\(\\sigma\\)</span>&nbsp;(kleingeschrieben)</div>",
+                "Sigma (kleingeschrieben)",
+                "s",
+                "[sound:de_sigma.mp3]",
+                "<br/>kleingeschrieben"
+            ],
+            "guid": "DEmMo5liX}",
+            "note_model_uuid": "6081ce5e-d0f9-11ec-a30c-617f119a1d53",
+            "tags": [
+                "Griechisches_Alphabet"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div><span style=\"background-color: rgb(255, 255, 255);\">\\(\\Sigma\\)</span></div>",
+                "Sigma&nbsp;(großgeschrieben)",
+                "S",
+                "[sound:de_sigma.mp3]",
+                "<br>großgeschrieben"
+            ],
+            "guid": "D*:o?(JZ}m",
+            "note_model_uuid": "6081ce5e-d0f9-11ec-a30c-617f119a1d53",
+            "tags": [
+                "Griechisches_Alphabet"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 255);\">\\(\\tau\\)</span>",
+                "Tau&nbsp;(kleingeschrieben)",
+                "t",
+                "[sound:tau_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch.mp3]<br>",
+                "<br/>kleingeschrieben"
+            ],
+            "guid": "Otz8p7CK[W",
+            "note_model_uuid": "6081ce5e-d0f9-11ec-a30c-617f119a1d53",
+            "tags": [
+                "Griechisches_Alphabet"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 255);\">T</span>",
+                "Tau&nbsp;(großgeschrieben)",
+                "T",
+                "[sound:tau_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch.mp3]<br>",
+                "<br/>großgeschrieben"
+            ],
+            "guid": "zi-Y6KEa6G",
+            "note_model_uuid": "6081ce5e-d0f9-11ec-a30c-617f119a1d53",
+            "tags": [
+                "Griechisches_Alphabet"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 255);\">\\(\\upsilon\\)</span>",
+                "Ypsilon&nbsp;(kleingeschrieben)",
+                "y",
+                "[sound:ypsilon_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch.mp3]<br>",
+                "<br/>kleingeschrieben"
+            ],
+            "guid": "r)M<eWXm[m",
+            "note_model_uuid": "6081ce5e-d0f9-11ec-a30c-617f119a1d53",
+            "tags": [
+                "Griechisches_Alphabet"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 255);\">\\(\\Upsilon\\)</span>",
+                "Ypsilon&nbsp;(großgeschrieben)",
+                "Y",
+                "[sound:ypsilon_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch.mp3]<br>",
+                "<br/>großgeschrieben"
+            ],
+            "guid": "n}UoaGjLJh",
+            "note_model_uuid": "6081ce5e-d0f9-11ec-a30c-617f119a1d53",
+            "tags": [
+                "Griechisches_Alphabet"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 255);\">\\(\\phi\\)</span>",
+                "Phi&nbsp;(kleingeschrieben)",
+                "f",
+                "[sound:phi_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch.mp3]<br>",
+                "<br/>kleingeschrieben"
+            ],
+            "guid": "w6S6ZDrY3t",
+            "note_model_uuid": "6081ce5e-d0f9-11ec-a30c-617f119a1d53",
+            "tags": [
+                "Griechisches_Alphabet"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 255);\">\\(\\Phi\\) (großgeschrieben)</span>",
+                "Phi&nbsp;(großgeschrieben)",
+                "F",
+                "[sound:phi_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch.mp3]<br>",
+                "<br/>großgeschrieben"
+            ],
+            "guid": "e,ti^o@PDt",
+            "note_model_uuid": "6081ce5e-d0f9-11ec-a30c-617f119a1d53",
+            "tags": [
+                "Griechisches_Alphabet"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 255);\">\\(\\chi\\) (kleingeschrieben)</span>",
+                "Chi&nbsp;(kleingeschrieben)",
+                "ch",
+                "[sound:chi_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch.mp3]<br>",
+                "kleingeschrieben"
+            ],
+            "guid": "g6c~`y5wi(",
+            "note_model_uuid": "6081ce5e-d0f9-11ec-a30c-617f119a1d53",
+            "tags": [
+                "Griechisches_Alphabet"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 255);\">X (großgeschrieben)</span>",
+                "Chi&nbsp;(großgeschrieben)",
+                "CH",
+                "[sound:chi_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch.mp3]<br>",
+                "<br/>großgeschrieben"
+            ],
+            "guid": "QAoRyd4(1B",
+            "note_model_uuid": "6081ce5e-d0f9-11ec-a30c-617f119a1d53",
+            "tags": [
+                "Griechisches_Alphabet"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 255);\">\\(\\psi\\)</span>",
+                "Psi&nbsp;(kleingeschrieben)",
+                "ps",
+                "[sound:De-Psi.mp3]<br>",
+                "<br/>kleingeschrieben"
+            ],
+            "guid": "h_)pA/Eu[1",
+            "note_model_uuid": "6081ce5e-d0f9-11ec-a30c-617f119a1d53",
+            "tags": [
+                "Griechisches_Alphabet"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 255);\">\\(\\Psi\\)</span>",
+                "Psi&nbsp;(großgeschrieben)",
+                "PS",
+                "[sound:De-Psi.mp3]<br>",
+                "<br/>großgeschrieben"
+            ],
+            "guid": "N:d%GLtfFY",
+            "note_model_uuid": "6081ce5e-d0f9-11ec-a30c-617f119a1d53",
+            "tags": [
+                "Griechisches_Alphabet"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 255);\">\\(\\Omega\\)</span>",
+                "Omega&nbsp;(großgeschrieben)",
+                "O (lang)",
+                "[sound:omega_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch.mp3]<br>",
+                "<br/>großgeschrieben"
+            ],
+            "guid": "c/lIo^:78h",
+            "note_model_uuid": "6081ce5e-d0f9-11ec-a30c-617f119a1d53",
+            "tags": [
+                "Griechisches_Alphabet"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 255);\">\\(\\omega\\)</span>",
+                "Omega&nbsp;(kleingeschrieben)",
+                "o (lang)",
+                "[sound:omega_-_LEO_Übersetzung_im_Englisch_⇔_Deutsch_Wörterbuch.mp3]<br>",
+                "<br/>kleingeschrieben"
+            ],
+            "guid": "Msc4DdS|wq",
+            "note_model_uuid": "6081ce5e-d0f9-11ec-a30c-617f119a1d53",
+            "tags": [
+                "Griechisches_Alphabet"
+            ]
+        }
+    ]
+}
